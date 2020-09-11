@@ -38,7 +38,7 @@ spring:
         is-share: true
         # 是否在cookie读取不到token时，继续从请求header里继续尝试读取 
         is-read-head: true
-        #  是否在header读取不到token时，继续从请求题参数里继续尝试读取 
+        #  是否在header读取不到token时，继续从请求体参数里继续尝试读取 
         is-read-body: true
         # 是否在初始化配置时打印版本字符画
         is-v: true
